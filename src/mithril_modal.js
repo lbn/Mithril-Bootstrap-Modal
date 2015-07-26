@@ -166,7 +166,17 @@
             m.startComputation();
             that.visible = m.prop(false);
             m.endComputation();
+
+            // Notify
+            proto.hide.handlers.forEach(function(handler) {
+                handler();
+            });
         }
+    };
+
+    proto.hide.handlers = [];
+    proto.hide.subscribe = function(cb) {
+        proto.hide.handlers.push(cb);
     };
 
     proto.isVisible = function () {

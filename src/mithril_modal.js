@@ -31,13 +31,14 @@
     'use strict';
 
     if (typeof module !== 'undefined' && module.exports) {
-        module.exports = definition();
+        var m = require('mithril');
+        module.exports = definition(m);
     } else if (typeof define === 'function' && define.amd) {
         define(definition);
     } else {
         context[name] = definition();
     }
-}('Modal', this, function () {
+}('Modal', this, function (m) {
     'use strict';
 
     function whichTransitionEvent() {

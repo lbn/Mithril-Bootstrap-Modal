@@ -1,10 +1,11 @@
 {
-  "name": "Mithril-Bootstrap_Modal",
+  "name": "mithril-bootstrap-modal",
   "version": "0.0.1",
   "description": "An implementation of Bootstrap 3 modal dialog using Mithril framework.",
   "author": "George Raptis (georapbox@gmail.com)",
   "homepage": "https://github.com/georapbox/Mithril-Bootstrap-Modal",
   "license": "Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) license.",
+  "main": "src/mithril_modal.js",
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-minify-css": "^1.1.1",

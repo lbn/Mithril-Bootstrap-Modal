@@ -1,6 +1,6 @@
 {
   "name": "mithril-bootstrap-modal",
-  "version": "0.0.1",
+  "version": "0.0.2-mar",
   "description": "An implementation of Bootstrap 3 modal dialog using Mithril framework.",
   "author": "George Raptis (georapbox@gmail.com)",
   "homepage": "https://github.com/georapbox/Mithril-Bootstrap-Modal",
